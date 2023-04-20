@@ -21,3 +21,4 @@ checkouts
 .nrepl-port
 *.swp
 upload.txt
+*.sig

@@ -1,16 +1,27 @@
 ![AWS logo](claws.png)
 # `Amazonica`
 
-A comprehensive Clojure client for the entire [Amazon AWS API][1].
+Forked from [mcohen01/amazonica](https://github.com/mcohen01/amazonica) A comprehensive Clojure client for the entire [Amazon AWS API][1].
 
-[![amazonica](https://circleci.com/gh/mcohen01/amazonica.svg?style=shield)](https://app.circleci.com/pipelines/github/mcohen01/amazonica)
-
+## Changelog
+* `v0.3.165`
+  * S3Client, authorization logic, will fallback to `DefaultAWSCredentialsProviderChain` when `access-key` and `secret-key` are `nil` [amazonica-PR](https://github.com/mcohen01/amazonica/pull/469)
 
 ## Installation
 
 Leiningen coordinates:
 ```clj
-[amazonica "0.3.163"]
+[com.github.vigneshwaranjheyaraman/amazonica "0.3.165"]
+```
+
+Clojure CLI/Deps.edn
+```clj
+com.github.vigneshwaranjheyaraman/amazonica {:mvn/version "0.3.165"}
+```
+
+For Gradle users:
+```gradle
+implementation("com.github.vigneshwaranjheyaraman:amazonica:0.3.165")
 ```
 
 For Maven users:
@@ -27,9 +38,9 @@ and the following dependency:
 
 ``` xml
 <dependency>
-  <groupId>amazonica</groupId>
+  <groupId>com.github.vigneshwaranjheyaraman</groupId>
   <artifactId>amazonica</artifactId>
-  <version>0.3.163</version>
+  <version>0.3.165</version>
 </dependency>
 ```
 
