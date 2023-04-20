@@ -1,6 +1,6 @@
-(defproject amazonica "0.3.163"
-  :description "A comprehensive Clojure client for the entire Amazon AWS api."
-  :url "https://github.com/mcohen01/amazonica"
+(defproject com.github.vigneshwaranjheyaraman/amazonica "0.3.164"
+  :description "A comprehensive Clojure client for the entire Amazon AWS api. FORKED version of mcohen01/amazonica"
+  :url "https://github.com/VigneshwaranJheyaraman/amazonica"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :java-source-paths ["src/main/java"]
